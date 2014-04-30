@@ -1,0 +1,20 @@
+To use this theme, copy the folder MythMediaStream to your local mythtv theme directory.
+
+command:
+
+cd mythmediastream
+cp -a MythMediaStream* ~/.mythtv/themes/
+
+This theme is designed to work with a custom menu called MythMediaStreamMenu. To select this menu, go to the 'theme & screensettings' menu in your frontend and set your Menu theme to 'MythMediaStream'.
+
+v025.6
+Fixed lay-out of the clock which was mashed up due to resolution difference on development system
+
+
+v025.5
+Added support for mythgame and mythzoneminder plugins
+Added various depends statements to make the lay-out of screens smoother
+Minor changes and cleanup to recordings, video, netvision and music screens
+Changed format of the clock to honor AM/PM time
+Added category colors to guide and changed background
+Added schedule filters to scheduleoptions editor

@@ -1,0 +1,618 @@
+<mythuitheme>
+
+    <window name="keyboard">
+
+        <area>0,0,552,279</area>
+
+<!--        <fontdef name="key" from="MediaStreamALT">
+            <size>12</size>
+            <stretch>extracondensed</stretch>
+            <weight>normal</weight>
+            <shadowcolor>#000000</shadowcolor>
+            <shadowoffset>1,1</shadowoffset>
+            <shadowalpha>255</shadowalpha>
+        </fontdef>-->
+
+        <imagetype name="backimg">
+            <area>0,0,552,279</area>
+            <filename>keyboard/KeyboardNoOutput.png</filename>
+        </imagetype>
+
+        <!-- top row -->
+        <button name="key_1">
+            <position>92,70</position>
+            <statetype name="buttonstate">
+                <state name="active">
+                    <textarea name="text">
+                        <area>0,0,37,31</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected">
+                    <imagetype name="background">
+                        <area>0,0,37,31</area>
+                        <filename>keyboard/KeyboardNumbers.png</filename>
+                        <preserveaspect>no</preserveaspect>
+                    </imagetype>
+                    <textarea name="text">
+                        <area>0,0,37,31</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active"/>
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_down.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>-->
+            </statetype>
+        </button>
+
+        <button name="key_2" from="key_1">
+            <position>127,70</position>
+        </button>
+        <button name="key_3" from="key_1">
+            <position>164,70</position>
+        </button>
+        <button name="key_4" from="key_1">
+            <position>201,70</position>
+        </button>
+        <button name="key_5" from="key_1">
+            <position>238,70</position>
+        </button>
+        <button name="key_6" from="key_1">
+            <position>275,70</position>
+        </button>
+        <button name="key_7" from="key_1">
+            <position>312,70</position>
+        </button>
+        <button name="key_8" from="key_1">
+            <position>349,70</position>
+        </button>
+        <button name="key_9" from="key_1">
+            <position>386,70</position>
+        </button>
+        <button name="key_0" from="key_1">
+            <position>423,70</position>
+        </button>
+<!--        <button name="key_-" from="key_1">
+            <position>380,70</position>
+        </button>
+        <button name="key_=" from="key_1">
+            <position>417,70</position>
+        </button>
+        <button name="key_#" from="key_1">
+            <position>454,70</position>
+        </button>
+        <button name="key_`" from="key_1">
+            <position>55,70</position>
+        </button>-->
+
+        <!-- row 2 -->
+        <button name="key_a">
+            <position>129,101</position>
+            <statetype name="buttonstate">
+                <state name="active">
+                    <textarea name="text">
+                        <area>0,0,42,32</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected">
+                    <imagetype name="background">
+                        <area>0,0,42,32</area>
+                        <filename>keyboard/KeyboardLetters.png</filename>
+                        <preserveaspect>no</preserveaspect>
+                    </imagetype>
+                    <textarea name="text">
+                        <area>0,0,42,32</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active"/>
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_down.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>-->
+            </statetype>
+        </button>
+        <button name="key_b" from="key_a">
+            <position>171,101</position>
+        </button>
+        <button name="key_c" from="key_a">
+            <position>213,101</position>
+        </button>
+        <button name="key_d" from="key_a">
+            <position>255,101</position>
+        </button>
+        <button name="key_e" from="key_a">
+            <position>297,101</position>
+        </button>
+        <button name="key_f" from="key_a">
+            <position>339,101</position>
+        </button>
+        <button name="key_g" from="key_a">
+            <position>381,101</position>
+        </button>
+        <button name="key_h" from="key_a">
+            <position>423,101</position>
+        </button>
+        <button name="key_i" from="key_a">
+            <position>465,101</position>
+        </button>
+<!--        <button name="key_p" from="key_1">
+            <position>354,47</position>
+        </button>
+        <button name="key_[" from="key_1">
+            <position>391,47</position>
+        </button>
+        <button name="key_]" from="key_1">
+            <position>428,47</position>
+        </button>-->
+
+        <!-- row 3 -->
+        <button name="key_j" from="key_a">
+            <position>129,133</position>
+        </button>
+        <button name="key_k" from="key_a">
+            <position>171,133</position>
+        </button>
+        <button name="key_l" from="key_a">
+            <position>213,133</position>
+        </button>
+        <button name="key_m" from="key_a">
+            <position>255,133</position>
+        </button>
+        <button name="key_n" from="key_a">
+            <position>297,133</position>
+        </button>
+        <button name="key_o" from="key_a">
+            <position>339,133</position>
+        </button>
+        <button name="key_p" from="key_a">
+            <position>381,133</position>
+        </button>
+        <button name="key_q" from="key_a">
+            <position>423,133</position>
+        </button>
+        <button name="key_r" from="key_a">
+            <position>465,133</position>
+        </button>
+<!--        <button name="key_;" from="key_1">
+            <position>366,84</position>
+        </button>
+        <button name="key_'" from="key_1">
+            <position>403,84</position>
+        </button>-->
+
+        <!-- row 4 -->
+        <button name="key_s" from="key_a">
+            <position>129,165</position>
+        </button>
+        <button name="key_t" from="key_a">
+            <position>171,165</position>
+        </button>
+        <button name="key_u" from="key_a">
+            <position>213,165</position>
+        </button>
+        <button name="key_v" from="key_a">
+            <position>255,165</position>
+        </button>
+        <button name="key_w" from="key_a">
+            <position>297,165</position>
+        </button>
+        <button name="key_x" from="key_a">
+            <position>339,165</position>
+        </button>
+        <button name="key_y" from="key_a">
+            <position>381,165</position>
+        </button>
+        <button name="key_z" from="key_a">
+            <position>423,165</position>
+        </button>
+        <button name="key_." from="key_a">
+            <position>465,165</position>
+        </button>
+<!--        <button name="key_," from="key_1">
+            <position>306,121</position>
+        </button>
+        <button name="key_." from="key_1">
+            <position>343,121</position>
+        </button>
+        <button name="key_/" from="key_1">
+            <position>380,121</position>
+        </button>-->
+
+        <!-- row 5 -->
+        <button name="key_space">
+            <position>146,195</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_space2.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,184,32</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <area>0,0,184,32</area>
+                        <filename>keyboard/KeyboardSpacebar.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_down_space2.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>-->
+                </state>
+            </statetype>
+        </button>
+
+        <!-- special keys -->
+        <button name="key_lshift">
+            <position>47,133</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_shift.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,82,32</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+<!--                    <imagetype name="arrow">
+                        <position>25,5</position>
+                        <filename>keyboard/shiftarrow.png</filename>
+                    </imagetype>-->
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <area>0,0,82,32</area>
+                        <filename>keyboard/KeyboardCaps.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active">
+<!--                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_shift.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>26,6</position>
+                        <filename>keyboard/shiftarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>-->
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_lock">
+            <position>47,101</position>
+                <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_shift.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,82,32</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <area>0,0,82,32</area>
+                        <filename>keyboard/KeyboardCaps.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active"/>
+                <state name="pushed" from="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_down_shift.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>-->
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_moveleft">
+            <position>56,70</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_move.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>6,12</position>
+                        <filename>keyboard/leftarrow.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,36,31</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <area>0,0,36,31</area>
+                        <filename>keyboard/KeyboardArrows.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_down_move.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>6,12</position>
+                        <filename>keyboard/leftarrow.png</filename>
+                    </imagetype>
+
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>-->
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_moveright">
+            <position>410,158</position>
+                <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_move.png</filename>
+                    </imagetype>-->
+                    <imagetype name="arrow">
+                        <position>6,12</position>
+                        <filename>keyboard/rightarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <area>0,0,53,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_move.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_move.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>6,12</position>
+                        <filename>keyboard/rightarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_rshift">
+            <position>465,158</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_back.png</filename>
+                    </imagetype>-->
+                    <imagetype name="arrow">
+                        <position>22,5</position>
+                        <filename>keyboard/shiftarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <area>0,0,72,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_back.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_back.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>24,6</position>
+                        <filename>keyboard/shiftarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_back">
+            <position>465,47</position>
+                    <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_back.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,72,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_back.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_back.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_comp" from="key_back">
+            <position>417,121</position>
+        </button>
+
+        <button name="key_del">
+            <position>491,121</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_del.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,47,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_del.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_del.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_done">
+            <position>440,84</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_done.png</filename>
+                    </imagetype>-->
+                    <imagetype name="arrow">
+                        <position>23,10</position>
+                        <filename>keyboard/returnarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <area>0,0,97,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_done.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_done.png</filename>
+                    </imagetype>
+                    <imagetype name="arrow">
+                        <position>24,11</position>
+                        <filename>keyboard/returnarrow.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>8,8</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+        <button name="key_alt">
+            <position>275,158</position>
+            <statetype name="buttonstate">
+                <state name="active">
+<!--                    <imagetype name="background">
+                        <filename>keyboard/key_normal_shift.png</filename>
+                    </imagetype>-->
+                    <textarea name="text">
+                        <area>0,0,78,35</area>
+                        <align>allcenter</align>
+                        <font>key_base</font>
+                        <font state="selected">key_base</font>
+                        <font state="disabled">key_grey</font>
+                    </textarea>
+                </state>
+                <state name="selected" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_focused_shift.png</filename>
+                    </imagetype>
+                </state>
+                <state name="disabled" from="active" />
+                <state name="pushed" from="active">
+                    <imagetype name="background">
+                        <filename>keyboard/key_down_shift.png</filename>
+                    </imagetype>
+                    <textarea name="text">
+                        <position>1,1</position>
+                    </textarea>
+                </state>
+            </statetype>
+        </button>
+
+    </window>
+
+</mythuitheme>

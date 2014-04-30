@@ -1,0 +1,153 @@
+<FrontendActionList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" serializerVersion="1.1">
+
+<Action>
+<Key>TVPOWEROFF</Key>
+<Value>Turn the display off</Value>
+</Action>
+<Action>
+<Key>TVPOWERON</Key>
+<Value>Turn the display on</Value>
+</Action>
+<Action>
+<Key>Standby Mode</Key>
+<Value>Standby Mode</Value>
+</Action>
+
+
+
+<Action>
+<Key>VOLUMEDOWN</Key>
+<Value>Volume down</Value>
+</Action>
+<Action>
+<Key>VOLUMEUP</Key>
+<Value>Volume up</Value>
+</Action>
+
+
+
+
+
+
+<ActionList>
+<Action>
+<Key>0</Key>
+<Value>0</Value>
+</Action>
+<Action>
+<Key>1</Key>
+<Value>1</Value>
+</Action>
+<Action>
+<Key>2</Key>
+<Value>2</Value>
+</Action>
+<Action>
+<Key>3</Key>
+<Value>3</Value>
+</Action>
+<Action>
+<Key>4</Key>
+<Value>4</Value>
+</Action>
+<Action>
+<Key>5</Key>
+<Value>5</Value>
+</Action>
+<Action>
+<Key>6</Key>
+<Value>6</Value>
+</Action>
+<Action>
+<Key>7</Key>
+<Value>7</Value>
+</Action>
+<Action>
+<Key>8</Key>
+<Value>8</Value>
+</Action>
+<Action>
+<Key>9</Key>
+<Value>9</Value>
+</Action>
+
+
+
+
+
+<Action>
+<Key>BACK</Key>
+<Value>Exit or return to DVD menu</Value>
+</Action>
+<Action>
+<Key>ESCAPE</Key>
+<Value>Escape</Value>
+</Action>
+<Action>
+<Key>EXIT</Key>
+<Value>System Exit</Value>
+</Action>
+<Action>
+<Key>EXITPROMPT</Key>
+<Value>Display System Exit Prompt</Value>
+</Action>
+<Action>
+<Key>EXITSHOWNOPROMPTS</Key>
+<Value>Exit Show without any prompts</Value>
+</Action>
+
+
+
+<!-- move around -->
+<Action>
+<Key>NEXT</Key>
+<Value>Move to next widget</Value>
+</Action>
+<Action>
+<Key>PREVIOUS</Key>
+<Value>Move to preview widget</Value>
+</Action>
+
+
+
+<Action>
+<Key>UP</Key>
+<Value>Up Arrow</Value>
+</Action>
+<Action>
+<Key>DOWN</Key>
+<Value>Down Arrow</Value>
+</Action>
+<Action>
+<Key>LEFT</Key>
+<Value>Left Arrow</Value>
+</Action>
+<Action>
+<Key>RIGHT</Key>
+<Value>Right Arrow</Value>
+</Action>
+
+
+
+
+<Action>
+<Key>ZOOMIN</Key>
+<Value>Zoom in on browser window</Value>
+</Action>
+<Action>
+<Key>ZOOMOUT</Key>
+<Value>Zoom out on browser window</Value>
+</Action>
+
+
+
+<Action>
+<Key>SELECT</Key>
+<Value>Select</Value>
+</Action>
+
+
+
+
+</ActionList>
+</FrontendActionList>

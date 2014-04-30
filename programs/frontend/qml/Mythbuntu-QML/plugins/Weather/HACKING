@@ -1,0 +1,44 @@
+Hello there and thanks for your intrest in the Ubuntu Weather APP 
+If you have not read the README file pleas do that now. 
+If you have and still want to hack on this code this is how suggested
+
+There are 2 branchs for this code. 
+
+One is for Hacking and is pure qml 
+
+The Other is the app Done
+
+For hacking on this we suggest that you use the Pure Qml branch and hack at that 
+then propose merdge for that branch. Unless you have found a bug in the application
+its self. then use the other branch. 
+
+to get started tools that you are going to need or are suggested 
+(Note some o this might change)
+This ppa 
+https://launchpad.net/~canonical-qt5-edgers/+archive/qt5-proper  
+
+sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper
+sudo add-apt-repository ppa:ubuntu-sdk-team/ppa && sudo apt-get update && sudo apt-get install ubuntu-sdk notepad-qml
+
+Now you are ready to start hacking. 
+
+Download this branch via bzr 
+
+bzr branch lp:ubuntu-weather-app-pureqml
+
+Open Up QtCreator and Now Open the File 
+<source> weather.qmlproject
+
+Start hacking and Have Fun. 
+
+after hacking Document what you have done 
+cd <Source Dir>
+bzr add 
+bzr commit 
+
+Push code to be reviewed 
+bzr push lp:<YOUR LP USERNAME>/lp:ubuntu-weather-app-pureqml
+
+open a browser and propuse that branch get merdged 
+
+Thanks again for your intrest In Ubuntu Core Phone Apps

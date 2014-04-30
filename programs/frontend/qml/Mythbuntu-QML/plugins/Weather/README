@@ -1,0 +1,37 @@
+Hello and thanks for your Intrest in the Ubuntu Weather Mobile App.
+Before you start hacking away at this code.There is a couple of things that 
+we suggest that you do 1st. 
+
+Contact the Phone Team 
+https://lists.launchpad.net/ubuntu-phone/
+
+When sending emails to the list, please put app name from the Launchpad project 
+in square brackets in your subject line. 
+As an example, for the Weather App:
+
+[Weather App] My subject title
+
+Sign this 
+https://forms.canonical.com/contributor
+
+Read the HACKING File. 
+
+Read Caonicals Branding Guide lines 
+http://design.canonical.com/the-toolkit/ubuntu-brand-guidelines/
+
+Read Design Phone Guide Lines 
+https://wiki.ubuntu.com/Touch/CoreApps/Design
+
+Read the Core Apps Phone Developers Guide
+https://wiki.ubuntu.com/Touch/CoreApps/DevelopmentGuide
+
+Check out the BluePrints 
+https://blueprints.launchpad.net/ubuntu-weather-app/+spec/initial-weather-development
+
+Contact the Team
+https://launchpad.net/~ubuntu-weather-dev
+
+Read the Teams Wiki Page 
+https://wiki.ubuntu.com/Touch/CoreApps/Weather?action=show&redirect=UbuntuPhone%2FCoreApps%2FWeather
+
+Have Fun and Happy Hacking
